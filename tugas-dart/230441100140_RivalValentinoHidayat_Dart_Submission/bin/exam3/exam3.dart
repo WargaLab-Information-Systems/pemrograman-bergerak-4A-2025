@@ -1,11 +1,8 @@
 Set uniqueElement(List<int> myList) {
-  // TODO 1: Konversi list menjadi set untuk menyisakan nilai unik
   return myList.toSet();
-  // End of TODO 1
 }
 
 Map<String, String> buildFutsalPlayersMap() {
-  // TODO 2: Buat map dengan posisi dan nama pemain futsal
   return {
     "Goalkeeper": "Andri",
     "Anchor": "Irfan",
@@ -13,15 +10,12 @@ Map<String, String> buildFutsalPlayersMap() {
     "Right Flank": "Aldi",
     "Left Flank": "Hafid"
   };
-  // End of TODO 2
 }
 
 Map<String, String> updatePivotPlayer() {
   final futsalPlayers = buildFutsalPlayersMap();
 
-  // TODO 3: Ubah pemain di posisi Pivot menjadi Fajar
   futsalPlayers["Pivot"] = "Fajar";
-  // End of TODO 3
-
+  
   return futsalPlayers;
 }
