@@ -13,7 +13,7 @@ dynamic circleArea(num r) {
   if (r < 0) {
     return 0.0;
   } else {
-    const double pi = 3.1415926535897932; //π sama dengan library dart.math;
+    const double pi = 3.1415926535897932; 
 
     // TODO 2
 
