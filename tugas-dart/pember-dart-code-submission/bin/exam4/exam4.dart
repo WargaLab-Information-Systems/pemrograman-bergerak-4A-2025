@@ -4,19 +4,18 @@ class PraktikanStudent {
 
   PraktikanStudent(this.fullName, this.age);
 
-
   int incrementAge() {
     // TODO 1
 
-    return age + 1;
+    return 0;
 
     // End of TODO 1
   }
 
-  Future<String> getStudentInfo() async {
+  Future<String> getStudentInfo() {
     // TODO 2
-    await Future.delayed(Duration(seconds: 3));
-    return Future.value("Nama Lengkap: $fullName, Umur: $age tahun");
+
+    return Future.value("");
 
     // End of TODO 2
   }
@@ -24,7 +23,8 @@ class PraktikanStudent {
 
 dynamic createStudent() {
   // TODO 3
-  return PraktikanStudent("Zefanya Ayu Patricia", 18);
+
+  return null;
 
   // End of TODO 3
 }
