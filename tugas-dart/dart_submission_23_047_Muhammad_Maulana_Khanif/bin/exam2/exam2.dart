@@ -29,14 +29,14 @@ dynamic createListOneToX(int x) {
 String getStars(int n) {
   var result = '';
 
-  // TODO 2
+  // TODO 3
   for (var i = n; i > 0; i--) {
     for (var j = 0; j < i; j++) {
       result += "*";
     }
     result += "\n";
   }
-  // End of TODO 2
+  // End of TODO 3
 
   return result;
 }
