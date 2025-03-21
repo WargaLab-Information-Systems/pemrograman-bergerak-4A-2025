@@ -8,7 +8,6 @@
 2. Menghapus atau mengubah nama fungsi dan variable yang sudah ada di dalam file `exam1.dart`.
 3. Membuat fungsi baru yang bukan merupakan tugas latihan.
 4. Mengubah struktur project (menghapus, mengedit, dan memindahkan package).
-5. Vikas Kontol
 
 ## Instruksi
 
