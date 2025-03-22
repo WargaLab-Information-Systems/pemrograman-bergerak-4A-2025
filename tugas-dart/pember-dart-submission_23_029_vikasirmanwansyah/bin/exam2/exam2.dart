@@ -1,9 +1,9 @@
 dynamic oddOrEven(int number) {
   // TODO 1
   if (number % 2 == 0) {
-    return 'genap';
+    return "Genap";
   } else {
-  return 'ganjil';
+    return "Ganjil";
   }
   // End of TODO 1
 }
@@ -16,30 +16,19 @@ dynamic createListOneToX(int x) {
     return list;
   }
 
-  for (int i = 1; i<= x; i++) {
+  for (var i = 1; i <= x; i++) {
     list.add(i);
   }
-  // End of TODO 2
-
   return list;
+  // End of TODO 2
 }
 
 String getStars(int n) {
   var result = '';
-
   // TODO 3
-  if (n <= 0) {
-    return result;
+  for (var i = n; i >= 1; i--) {
+    result += ("*" * i + "\n");
   }
-
-  for (int i = n; i >= 1; i--) {
-    result += '*' * i;
-    if(i > 1) {
-      result += '\n';
-    }
-  }
-  result += '\n';
   // End of TODO 3
-
   return result;
 }
