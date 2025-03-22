@@ -24,7 +24,7 @@ class PraktikanStudent {
 
 dynamic createStudent() {
   // TODO 3
-  PraktikanStudent Saya = PraktikanStudent("Ahmad", 20);
+  PraktikanStudent Saya = PraktikanStudent("Nur Muhammad", 19);
   return Saya;
 
   // End of TODO 3
